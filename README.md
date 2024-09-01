@@ -14,6 +14,9 @@ All course notes are located here in the 'main' repository branch.
 
 Check out branch 'gdbecker-patch-1' for all work done in the dbt Cloud IDE.
 
+### dbt Cloud and BigQuery
+- Link for setting up initial project with dbt Cloud and BigQuery [here](https://docs.getdbt.com/guides/bigquery?step=1)
+
 ### Frequently Asked Questions
 - How long does this course take to complete?
   - We estimate that this course takes about five hours to complete. There are two hours of video and approximately three hours of practice for someone who is new to dbt.
