@@ -40,7 +40,7 @@ sources:
 - Given the source configuration above, the snippet ```{{ source('jaffle_shop','customers') }}``` in a model file will compile to ```raw.jaffle_shop.customers```.
 - The Lineage Graph will represent the sources in green.
 
-!["DAG sources"](./04_01%20DAG_sources.png)
+!["DAG sources"](./Pics/04_01%20DAG_sources.png)
 
 #### Source freshness
 - Freshness thresholds can be set in the YML file where sources are configured. For each table, the keys ```loaded_at_field``` and ```freshness``` must be configured.

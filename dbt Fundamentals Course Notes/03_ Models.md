@@ -35,7 +35,7 @@ materialized='view'
 - When ```dbt run``` is executing, dbt is wrapping the select statement in the correct DDL/DML to build that model as a table/view. If that model already exists in the data warehouse, dbt will automatically drop that table or view before building the new database object. *Note: If you are on BigQuery, you may need to run ```dbt run --full-refresh``` for this to take effect.
 - The DDL/DML that is being run to build each model can be viewed in the logs through the cloud interface or the target folder.
 
-!["cloud run logs"](./03_01%20cloud_run_logs.png)
+!["cloud run logs"](./Pics/03_01%20cloud_run_logs.png)
 
 #### Modularity
 - We could build each of our final models in a single model as we did with dim_customers, however with dbt we can create our final data products using modularity.
@@ -50,7 +50,7 @@ materialized='view'
 - Example: ```{{ ref('stg_jaffle_shop_customers') }}``` compiles to ```analytics.dbt_jsmith.stg_jaffle_shop_customers```.
 - The ```ref``` function also builds a lineage graph like the one shown below. dbt is able to determine dependencies between models and takes those into account to build models in the correct order.
 
-!["DAG"](./03_02%20827ep5d0uzar-DAG.jpg)
+!["DAG"](./Pics/03_02%20827ep5d0uzar-DAG.jpg)
 
 #### Modeling History
 - There have been multiple modeling paradigms since the advent of database technology. Many of these are classified as normalized modeling.
@@ -77,4 +77,4 @@ In working on this project, we established some conventions for naming our model
 - **Marts** folder: All intermediate, fact, and dimension models can be stored here. Further subfolders can be used to separate data by business function (e.g. marketing, finance)
 **Staging** folder: All staging models and source configurations can be stored here. Further subfolders can be used to separate data by data source (e.g. Stripe, Segment, Salesforce). (We will cover configuring Sources in the Sources module)
 
-!["Directory"](./03_03%20ypi962x0mo0f-Directory.jpg)
+!["Directory"](./Pics/03_03%20ypi962x0mo0f-Directory.jpg)

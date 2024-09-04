@@ -30,11 +30,11 @@
 - Read more here in [testing documentation](https://docs.getdbt.com/reference/node-selection/test-selection-examples).
 - In development, dbt Cloud will provide a visual for your test results. Each test produces a log that you can view to investigate the test results further.
 
-!["testing dev"](./05_01%20testing-dev.png)
+!["testing dev"](./Pics/05_01%20testing-dev.png)
 
 In production, dbt Cloud can be scheduled to run ```dbt test```. The ‘Run History’ tab provides a similar interface for viewing the test results.
 
-!["testing prod"](./05_02%20testing-prod.png)
+!["testing prod"](./Pics/05_02%20testing-prod.png)
 
 You've learned about the 4 built-in generic tests, but there are so many more tests in packages you could be using! Learn about them in our free online course on [Jinja, Macros, and Packages](https://learn.getdbt.com/courses/jinja-macros-and-packages).
 
