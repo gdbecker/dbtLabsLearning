@@ -1,14 +1,14 @@
-# dbt Jinja, Macros, and Packages Course
+# dbt Advanced Materializations Course
 
-Projects and learning from dbt Labs's [dbt Jinja, Macros, and Packages Course](https://learn.getdbt.com/courses/refactoring-sql-for-modularity).
+Projects and learning from dbt Labs's [dbt Advanced Materializations Course](https://learn.getdbt.com/courses/advanced-materializations).
 
 ### Course Details
 
-Extend the functionality of dbt with Jinja/macros and leverage models and macros from packages. (approximately 2 hours).
+Learn about the advanced materializations that are built into dbt Core - ephemeral models, incremental models, and snapshots. Approximately two hours.
 
 All course notes are located in the `main` repository branch.
 
-Check out branch `jinjaMacrosPackagesCourse` for all work done in the dbt Cloud IDE.
+Check out branch `advancedMaterializationsCourse` for all work done in the dbt Cloud IDE.
 
 ### dbt Cloud and BigQuery
 - Link for setting up initial project with dbt Cloud and BigQuery [here](https://docs.getdbt.com/guides/bigquery?step=1)

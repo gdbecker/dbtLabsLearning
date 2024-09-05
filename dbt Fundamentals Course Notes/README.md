@@ -10,7 +10,7 @@ Projects and learning from dbt Labs's [dbt Fundamentals Course](https://learn.ge
 
 Learn the foundational steps of transforming data in dbt Cloud. Start by connecting dbt Cloud to a data warehouse and Git repository, then explore key concepts like modeling, sources, testing, documentation, and deployment. Get hands-on by building a model and running tests in dbt Cloud. Course duration is approximately 5 hours.
 
-All course notes are located here in the `main` repository branch.
+All course notes are located in the `main` repository branch.
 
 Check out branch `fundamentalsCourse` for all work done in the dbt Cloud IDE.
 

@@ -1,14 +1,14 @@
-# dbt Jinja, Macros, and Packages Course
+# dbt Advanced Testing Course
 
-Projects and learning from dbt Labs's [dbt Jinja, Macros, and Packages Course](https://learn.getdbt.com/courses/refactoring-sql-for-modularity).
+Projects and learning from dbt Labs's [dbt Advanced Testing Course](https://learn.getdbt.com/courses/advanced-testing).
 
 ### Course Details
 
-Extend the functionality of dbt with Jinja/macros and leverage models and macros from packages. (approximately 2 hours).
+Learn more about the theory of data testing and the practice of creating custom generic tests, leveraging tests in packages, and applying test configurations. (approximately 4 hours).
 
 All course notes are located in the `main` repository branch.
 
-Check out branch `jinjaMacrosPackagesCourse` for all work done in the dbt Cloud IDE.
+Check out branch `advancedTestingCourse` for all work done in the dbt Cloud IDE.
 
 ### dbt Cloud and BigQuery
 - Link for setting up initial project with dbt Cloud and BigQuery [here](https://docs.getdbt.com/guides/bigquery?step=1)

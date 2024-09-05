@@ -1,17 +1,29 @@
-# dbt Jinja, Macros, and Packages Course
+# dbt Advanced Deployment Course
 
-Projects and learning from dbt Labs's [dbt Jinja, Macros, and Packages Course](https://learn.getdbt.com/courses/refactoring-sql-for-modularity).
+Projects and learning from dbt Labs's [dbt Advanced Deployment Course](https://learn.getdbt.com/courses/advanced-deployment).
 
 ### Course Details
 
-Extend the functionality of dbt with Jinja/macros and leverage models and macros from packages. (approximately 2 hours).
+Learn how to deploy your dbt Cloud project with advanced functionality including continuous integration, orchestrating conflicting jobs, and customizing behavior by environment. (approximately 4 hours)
 
 All course notes are located in the `main` repository branch.
 
-Check out branch `jinjaMacrosPackagesCourse` for all work done in the dbt Cloud IDE.
+Check out branch `advancedDeploymentCourse` for all work done in the dbt Cloud IDE.
 
 ### dbt Cloud and BigQuery
 - Link for setting up initial project with dbt Cloud and BigQuery [here](https://docs.getdbt.com/guides/bigquery?step=1)
+
+### How to Engage with this Course
+At this point in your dbt learning journey, you likely have either:
+1. Followed some of the earlier coursework including dbt Fundamentals OR
+2. You have your own dbt project that you are using for your organization.
+
+#### Using Practice Exercises
+We will provide practice exercises that can be applied to the dbt Fundamentals coursework after you have completed the course. If you are bringing your own dbt Cloud account, you can transfer the practice exercises to your own project. If you are not using dbt Cloud, there are principles throughout the course that you will be able to apply as well, though you won't have access to the dbt Cloud interface and infrastructure.
+
+If you don't have your code from dbt fundamentals, the initial underlying code that we are using in this course can be found in this repository: [https://github.com/coapacetic/learn-on-demand](https://github.com/coapacetic/learn-on-demand)
+
+Feel free to join us in #learn-on-demand in dbt Slack as you learn.
 
 ### Frequently Asked Questions
 - How long does this course take to complete?

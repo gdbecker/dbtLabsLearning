@@ -2,7 +2,7 @@
 
 ### Learning Objectives
 - Explain the role of packages in a dbt project.
-- Install a package from hub.getdbt.com.
+- Install a package from [hub.getdbt.com](https://hub.getdbt.com/).
 - Utilize models and macros from a package.
 
 ### Review

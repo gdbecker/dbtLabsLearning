@@ -6,7 +6,7 @@ Projects and learning from dbt Labs's [dbt Refactoring SQL for Modularity Course
 
 Migrate legacy code into modular dbt data models with guidance from dbt Labs experts. Port stored procedures or SQL scripts into your dbt cloud project for efficient and scalable transformations (approximately 3.5 hours).
 
-All course notes are located here in the `main` repository branch.
+All course notes are located in the `main` repository branch.
 
 Check out branch `refactoringSQLforModularityCourse` for all work done in the dbt Cloud IDE.
 

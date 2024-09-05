@@ -6,7 +6,7 @@ Check out which branches correspond to the dbt courses I worked through:
 - dbt Fundamentals: `fundamentalsCourse`
 - Refactoring SQL for Modularity: `refactoringSQLforModularityCourse`
 - Jinja, Macros, and Packages: `jinjaMacrosPackagesCourse`
-- Advanced Materializations
-- Analyses and Seeds
-- Advanced Testing
-- Advanced Deployment
+- Advanced Materializations: `advancedMaterializationsCourse`
+- Analyses and Seeds: `analysesSeedsCourse`
+- Advanced Testing: `advancedTestingCourse`
+- Advanced Deployment: `advancedDeploymentCourse`
