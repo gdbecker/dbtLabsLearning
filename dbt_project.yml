@@ -38,7 +38,28 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   jaffle_shop:
     # Applies to all files under models/example/
+    # all models should have unique and not_null
+    +required_tests: {"unique.*|not_null*": 2}
     marts:
       +materialized: table
+      finance:
+        tests:
+          - dbt_utils.expression_is_true:
+            expression: "amount >= 0"
+        columns:
+          - name: customer_id
+            tests:
+              - relationships:
+                  to: ref('stg_jaffle_shop__customers')
+                  field: customer_id
+              - assert_dollars_spent_are_greater_than_one
+      marketing:
+        columns:
+          - name: order_id
+            tests:
+              - relationships:
+                  to: ref('stg_jaffle_shop__orders')
+                  field: order_id
     staging:
       +materialized: view
+      

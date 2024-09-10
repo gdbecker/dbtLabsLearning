@@ -17,6 +17,19 @@ models:
       - name: payment_id
         description: Primary key and unique identifier per transaction.
         tests:
-          - unique
+          - unique:
+              config:
+                error_if: ">100"
+                limit: 10
           - not_null
+      - name: payment_method
+        description: Method of payment for the order
+      - name: status
+        description: Status of each order
+        tests:
+          - accepted_values:
+              values: ['success', 'failure']
+              config:
+                limit: 10
+                store_failures: true
           
